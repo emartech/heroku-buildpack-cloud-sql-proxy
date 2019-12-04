@@ -28,4 +28,4 @@ Set the connection string for your DB library to
 `postgres://<username>:<password>@localhost:<local port>/<database-name>`
 
 Start the proxy before your app tries to connect to the database by e.g. adding 
-`bin/run_cloud_sql_proxy` to the `.profile` in the root of your project.
+`bin/run_cloud_sql_proxy` to the `.procfile` in the root of your project.
